@@ -1,0 +1,124 @@
+.compCalculator_container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  color: #000;
+  margin-top: 10px;
+}
+
+.compCalculator_form {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 10px 40px;
+  border: 3px solid gray;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.compCalculator_header {
+  position: relative;
+  flex: 0.84;
+}
+
+.compCalculator_headerTitle {
+  font-size: 1.8em;
+  z-index: 1;
+  color: #04d394;
+  margin-bottom: 20px;
+}
+
+.compCalculator_inputRow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+
+.compCalculator_label {
+  position: relative;
+  flex: 0.55;
+  color: gray;
+}
+
+.compCalculator_select {
+  flex: 0.4;
+  padding: 7px;
+  border: 1px solid #04d394;
+  color: #04d394;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.compCalculator_select::placeholder {
+  text-transform: uppercase;
+}
+
+.compCalculator_input {
+  flex: 0.4;
+  outline: none;
+  padding: 7px;
+  border: 1px solid #04d394;
+}
+
+.compCalculator_buttonWrapper {
+  position: relative;
+  flex: 0.42;
+}
+
+.compCalculator_button {
+  text-transform: uppercase;
+  width: 50%;
+  color: #04d394;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #04d394;
+  outline: none;
+  cursor: pointer;
+}
+
+.compCalculator_button:hover {
+  transform: scale(1.03);
+  background: #04d394;
+  color: #fff;
+  border: none;
+}
+
+.compCalculator_active {
+  background: #04d394;
+  color: #fff;
+  width: 50%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.compCalculator_active:hover {
+  transform: scale(1.03);
+  background: #fff;
+  color: #04d394;
+  padding: 6px;
+  border: 1px solid #04d394;
+}
+
+.compCalculator_submitLeft {
+}
+
+.compCalculator_submitRight {
+  /* border: 1px solid red; */
+
+  text-transform: uppercase;
+  width: 17%;
+  color: #04d394;
+  background: #fff;
+  padding: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,100 @@
+.marketList_Container {
+  /* border: 1px solid red; */
+
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.marketList {
+  position: relative;
+  width: 100%;
+  margin: 10px auto 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.market_header {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background: #000;
+  color: #04d394;
+  margin: 5px auto;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+.market_item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background: #000;
+  color: #fff;
+  margin: 5px auto;
+  padding: 10px 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.market_item:hover {
+  transform: scale(1.03);
+  background: #000;
+  color: #04d394;
+}
+
+.market_img {
+  width: 32px;
+  height: 32px;
+}
+
+.market_logo:nth-child(1) {
+  /* border: 1px solid red; */
+
+  width: 3%;
+  text-align: center;
+}
+
+.market_symbol:nth-child(2) {
+  /* border: 1px solid red; */
+
+  width: 10%;
+  text-align: center;
+}
+
+.market_totalSupply:nth-child(3) {
+  /* border: 1px solid red; */
+
+  width: 20%;
+  text-align: center;
+}
+
+.market_supplyAPY:nth-child(4) {
+  /* border: 1px solid red; */
+
+  width: 10%;
+  text-align: center;
+}
+
+.market_totalBorrow:nth-child(5) {
+  /* border: 1px solid red; */
+
+  width: 20%;
+  text-align: center;
+}
+
+.market_borrowAPY:nth-child(6) {
+  /* border: 1px solid red; */
+
+  width: 15%;
+  text-align: center;
+}
+
+.market_compSpeed:nth-child(7) {
+  /* border: 1px solid red; */
+
+  width: 20%;
+  text-align: center;
+}
